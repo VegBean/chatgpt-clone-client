@@ -7,7 +7,6 @@ const AppHeader = () => {
         <SidebarTrigger className="-ml-1" />
         <div className="text-gray-500">Chat 标题</div>
       </div>
-      {/* 分享图标 */}
     </header>
   );
 };

@@ -31,11 +31,6 @@ import {
 
 // This is sample data.
 const data = {
-  user: {
-    name: "黄花菜豆",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
-  },
   items: [
     {
       name: "新聊天",
@@ -132,7 +127,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarContent>
       {/* 页脚用户项 */}
       <SidebarFooter>
-        <AppSidebarFooter userinfo={data.user} />
+        <AppSidebarFooter />
       </SidebarFooter>
     </Sidebar>
   );
